@@ -1,6 +1,9 @@
  *{
     box-sizing: border-box;
  }
+ body {
+    padding: 50px;
+ }
 .container{
     background-color: #eee;
     width: 800px;
