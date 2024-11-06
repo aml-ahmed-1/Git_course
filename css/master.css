@@ -1,0 +1,108 @@
+ *{
+    box-sizing: border-box;
+ }
+.container{
+    background-color: #eee;
+    width: 800px;
+    height: 450px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.login-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #007aff;
+    height: 20%;
+    border-radius: 10px 10px 0px 0px;
+    color: #fcfffc;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.login-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color:#ffffff;
+    height: 80%;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px ;
+    text-transform: capitalize;
+}
+label {
+    font-size: 25px;
+    color: #798595;
+    display: block;
+    margin-bottom: 15px;
+}
+input[type="email"],
+input[type="password"] {
+   border:1px solid;
+   background-color: #fefaf9;
+   border-color: #eeeeee;
+   outline-color: #eeeeee;
+   caret-color: #2085ff;
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+}
+input:active,input:focus{
+    border-color: #eeeeee;
+    outline-color: #eeeeee;
+}
+.mail,.pass,.sub{
+    margin: 20px;
+}
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin:10px 0px;
+    color: #fcfffc;
+    text-transform: capitalize;
+    font-size: 20px;
+    border:none ;
+    background-color: #2085ff;
+    outline: none;
+}
+.login-form,
+.login-contact {
+    width:calc( 90% /2 );
+}
+.login-contact p{
+    font-size: 25px;
+    color: #798595;
+    display: block;
+    margin:20px 0px;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.login-contact>div{
+    margin: 20px;
+}
+a{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin:20px 0px;
+    color: #fcfffc;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+a:nth-child(1) {
+    background-color: #1977f3;
+}
+a:nth-child(2){
+    background-color: #1ea1f3;
+}
+a:nth-child(3){
+    background-color: #0177b5;
+}
